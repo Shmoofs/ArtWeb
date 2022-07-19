@@ -6,6 +6,19 @@ Framworks used:
 -> Next.js
 -> Firebase
 
+To run app:
+1) Clone repo 
+
+2) Install npm
+
+3) Run these commands:
+
+$cd art-web  
+
+$npm run dev
+
+4) Go to http://localhost:3000
+
 Current Goals: 
 -> Set up frameworks 
 
