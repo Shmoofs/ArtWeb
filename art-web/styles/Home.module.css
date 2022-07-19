@@ -1,5 +1,10 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  margin: 10px;
+}
+
+.left{
+  width: 20rem;
 }
 
 .main {
