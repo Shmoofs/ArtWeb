@@ -3,6 +3,7 @@ Website for artists
 
 Framworks used: 
 -> React 
+-> Webpack
 -> Next.js
 -> Firebase
 
