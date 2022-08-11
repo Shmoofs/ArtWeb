@@ -1,28 +1,18 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import NoteOperations from './components/NoteOperations';
-import bar from './bar.js';
 
-bar();
-
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>ArtWeb</title>
-        <meta name="description" content="The website for artists" />
-        <link rel="icon" href="/artweb.ico" />
-      </Head>
-
-      <main>
-        <div className={styles.container}>
-          <div className={styles.left}>
-            <NoteOperations />
-          </div>
-          <div className={styles.right}>Right</div>
-        </div>
-      </main>
-
-    </div>
-  )
+export{
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap w/ Webpack</title>
+    </head>
+    <body>
+      <div class="container py-4 px-3 mx-auto">
+        <h1>Hello, Bootstrap and Webpack!</h1>
+        <button class="btn btn-primary">Primary button</button>
+      </div>
+      <script src="./main.js"></script>
+    </body>
+  </html>
 }
